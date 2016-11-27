@@ -1,6 +1,6 @@
 define(['./player', './game'], function (player, game) {
 
-    console.log('Loading with RequireJS');
+    console.log('Bundled with Webpack');
 
     // add click handler to the start game button
     document.getElementById('startGame').addEventListener('click', function () {
