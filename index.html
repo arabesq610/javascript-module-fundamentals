@@ -48,17 +48,7 @@
     <div class="form-horizontal" id="game"></div>
     
     <div class="col-sm-offset-2 col-sm-10" id="scores"><h2>Scoreboard</h2><h4>No scores yet</h4></div>
-
-    <script src="node_modules/systemjs/dist/system.js"></script>
-    <script>
-        System.config({ // Pass a config obj to the config method of SystemJS
-            meta: { // System js supports several format, so inform it that we're using CommonJS format
-                format: 'cjs' 
-            }
-        });
-        // 
-        System.import('build/app.js'); // This represents the path to the root object for our application 
-    </script>
+    <script src="./build/bundle.js"></script>
 
 </body>
 </html>
